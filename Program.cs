@@ -7,7 +7,7 @@ internal class Program
    //     Console.WriteLine("Hello, World!");
    // }
     // Création de la classe abstraite Paiement
-    public abstract class Paiement
+   /* public abstract class Paiement
     {
         public double Montant { get; set; }
         public string Description { get; set; }
@@ -20,7 +20,7 @@ internal class Program
 
         public abstract void EffectuerPaiement();
     }
-    // Création de la classe enfant CarteCredit
+    Création de la classe enfant CarteCredit
     public class CarteCredit 
     {
         public int NumeroCarte { get; set; }
@@ -36,10 +36,10 @@ internal class Program
         {
             Console.WriteLine($"le numéro de la  carte de crédit est : {NumeroCarte} ");
         }
-    }
+    }*/
     /*static void Main (string[] args)
     {
-        CarteCredit achat1 = new CarteCredit(10050);
+        CarteCredit achat1 = new CarteCredit(30050);
         CarteCredit achat2 = new CarteCredit(20075);
         CarteCredit achat3 = new CarteCredit(5000);
 
@@ -47,7 +47,7 @@ internal class Program
         achat2.EffectuerPaiement();
         achat3.EffectuerPaiement();
     }*/
-    public class Paypal 
+   /* public class Paypal 
     {
         public string Email { get; set; }
 
@@ -61,7 +61,7 @@ internal class Program
         {
             Console.WriteLine($" effectué via PayPal à l'adresse {Email}");
         }
-    }
+    }*/
       /*static void Main1(string[] args)
         {
         Paypal paiement1 = new Paypal ("email1@example.com");
@@ -71,7 +71,7 @@ internal class Program
         paiement2.EffectuerPaiement();
         }*/
 
-    static void Main(string[] args)
+    /*static void Main(string[] args)
     {
         CarteCredit achat1 = new CarteCredit(10050);
         CarteCredit achat2 = new CarteCredit(20075);
@@ -84,7 +84,7 @@ internal class Program
         achat3.EffectuerPaiement();
         paiement1.EffectuerPaiement();
         paiement2.EffectuerPaiement();
-    }
+    }*/
 
 
 
